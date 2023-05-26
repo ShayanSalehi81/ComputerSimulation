@@ -1,36 +1,39 @@
-\subsection*{الف}
-در اینجا برای کشیدن زنجیره مارکوف می‌دانیم هر حالت با احتمال
-$p$
-به حالت بعد رفته و با احتمال
-$1 - p$ 
-به حالت قبل باز می‌گردد و این تا بی‌نهایت ادامه پیدا می‌کنید. به این ترتیب برای شکل این قسمت خواهیم داشت:
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale = 0.3]{"commons/first.jpg"}
-    \caption{شکل زنجیره مارکوف}
-\end{figure}
-
-\subsection*{ب}
-برای محاسبه حالت ماندگار خواهیم داشت:
-$$P_0 = (1 - p) P_0 + (1 - p) P_1 \implies P_1 = \frac{p}{1 - p} P_0$$
-$$P_1 = p P_0 + (1 - p) P_2 \implies P_2 = \left(\frac{p}{1 - p}\right)^2 P_0$$
-$$P_2 = p P_1 + (1 - p) P_3 \implies P_3 = \left(\frac{p}{1 - p}\right)^3 P_0$$
-$$\implies P_i = \left(\frac{p}{1 - p}\right)^i P_0$$
-حال باتوجه به جمع احتمالات
-$P_i$
-خواهیم داشت:
+در ابتدا گزینه تقویت سرورها را بررسی می‌کنیم. به این ترتیب داریم.
 \begin{align*}
-    \sum_{i = 0}^{\infty} P_i &= \sum_{i = 0}^{\infty} \left(\frac{p}{1 - p}\right)^i P_0 \\
-                              &= \frac{P_0}{1 - \left(\frac{p}{1 - p}\right)} = 1, \quad p < 0.5
+    p_0 &= \left( \sum_{n = 0}^2 \frac{1}{n!}2^n + \frac{3}{3!}2^3\right)^{-1} \\
+    &= \left(1 + 2 + 2^2 \times \frac{1}{2} + 2^2\right)^{-1} \\
+    &= 9^{=1} = \frac{1}{9} \\\\
+    p &= \frac{12}{3 \times 6} =\frac{2}{3} \\\\
+    L_q &= \frac{\frac{2}{3} \times p_0 \times 2^3}{3! (1 - \frac{2}{3})^2} = \frac{\frac{16}{27}}{\frac{2}{3}} = \frac{8}{9} 
 \end{align*}
-$$ \implies P_0 = \frac{1 - 2p}{1 - p} \implies P_i = \left(\frac{p}{1 - p}\right)^i \left(\frac{1 - 2p}{1 - p}\right)$$
-به این ترتیب احتمال وقوع هر حالت به این صورت خواهد بود.
+\[
+    \text{هزینه سالیانه} = 50000 + \frac{8}{9} \times 0.001 \times 365 \times 24 \times 60 \times 60 \simeq 74980
+\]
 
-\subsection*{ج}
-با توجه به عبارات به دست آمده بالا می‌دانیم اگر داشته باشیم
-$p > 0.5$
-ضریب دنباله هندسی یعنی
-$\frac{p}{1 - p}$
-بزرگتر از یک خواهد شد و این نشان می‌دهد که جمع این دنباله به هیچ عنوان نمی‌تواند همگرا شود و نخواهیم داشت
-$\sum_{i = 0}^{\infty} P_i = 1$.
-به این ترتیب نمی‌توان برای احتمال وقوع حالت‌ها در این شرایط تعریفی بیان کرد.
+حال برای هزینه ادامه با سرورهای فعلی داریم.
+\begin{align*}
+    p_0 &= \left( \sum_{n = 0}^2 \frac{1}{n!}(\frac{12}{5})^n + \frac{5}{3!}(\frac{12}{5})^3\right)^{-1} \\
+    &= \left(1 + \frac{12}{5} + \frac{72}{25} + \frac{288}{25}\right)^{-1} \\
+    &= (1 + \frac{84}{5})^{-1} \\ 
+    &= \frac{5}{89} \\\\
+    p &= \frac{12}{3 \times 5} = \frac{4}{5} \\\\
+    l_q &= \frac{\frac{4}{5} \times p_0 \times (\frac{12}{5})^3}{3! (1 - \frac{4}{5})^2} \simeq 2.6
+\end{align*}
+\[
+    \text{هزینه سالیانه} = 2.6 \times 0.001 \times 365 \times 24 \times 60 \times 60 \simeq 81680
+\]
+
+برای هزینه خرید سرور جدید نیز خواهیم داشت.
+\begin{align*}
+    p_0 &= \left( \sum_{n = 0}^2 \frac{1}{n!}(\frac{12}{5})^n + \frac{1}{3!}(\frac{12}{5})^3 + \frac{5}{48}(\frac{12}{5})^4\right)^{-1} \\
+    &= \left(1 + \frac{12}{5} + \frac{72}{25} + \frac{288}{125} + \frac{432}{125}\right)^{-1} \\
+    &= (\frac{301}{25})^{-1} \\ 
+    &= \frac{25}{301} \\\\
+    p &= \frac{12}{4 \times 5} = \frac{3}{5} \\\\
+    l_q &= \frac{\frac{4}{5} \times p_0 \times (\frac{12}{5})^4}{4! (1 - \frac{3}{5})^2} \simeq 0.43
+\end{align*}
+\[
+    \text{هزینه سالیانه} = 700000 + 0.43 \times 0.001 \times 365 \times 24 \times 60 \times 60 \simeq 83560
+\]
+
+بنابراین تقویت سرورها کمترین هزینه را برای ما در بر خواهد داشت.

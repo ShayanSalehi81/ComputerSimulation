@@ -1,6 +1,6 @@
-PWD d:\Programer\Taklif\CS_HW#2_99105561
+PWD d:\Term 06\Computer Simulation\HW#3\CS_HW#3_99105561
 INPUT C:\Users\Eye Patch\AppData\Local\MiKTeX\miktex\data\le\xetex\xelatex.fmt
-INPUT d:\Programer\Taklif\CS_HW#2_99105561\HW.tex
+INPUT d:\Term 06\Computer Simulation\HW#3\CS_HW#3_99105561\HW.tex
 OUTPUT HW.log
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
@@ -1107,21 +1107,9 @@ INPUT questions\2.tex
 INPUT .\questions\3.tex
 INPUT questions\3.tex
 INPUT questions\3.tex
-INPUT .\commons\first.jpg
-INPUT .\commons\first.jpg
-INPUT commons\first.jpg
 INPUT .\questions\4.tex
 INPUT questions\4.tex
 INPUT questions\4.tex
-INPUT .\commons\second.jpg
-INPUT .\commons\second.jpg
-INPUT commons\second.jpg
-INPUT .\questions\5.tex
-INPUT questions\5.tex
-INPUT questions\5.tex
-INPUT .\commons\third.jpg
-INPUT .\commons\third.jpg
-INPUT commons\third.jpg
 INPUT HW.aux
 INPUT .\HW.out
 INPUT .\HW.out

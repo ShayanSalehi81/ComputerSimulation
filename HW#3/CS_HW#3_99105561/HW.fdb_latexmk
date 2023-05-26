@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1682124265 "HW.xdv" "HW.pdf" "HW" 1682124265 0
-  "HW.xdv" 1682124265 40836 d2ef9d7c775cc72a3d1cd7448791e208 "xelatex"
+["xdvipdfmx"] 1685143128 "HW.xdv" "HW.pdf" "HW" 1685143129 0
+  "HW.xdv" 1685143128 57628 e0c94f29227aad9b3d1021cdd6f98a58 "xelatex"
   (generated)
   "HW.pdf"
   (rewritten before read)
-["xelatex"] 1682124262 "d:/Programer/Taklif/CS_HW#2_99105561/HW.tex" "HW.xdv" "HW" 1682124265 0
+["xelatex"] 1685143125 "d:/Term 06/Computer Simulation/HW#3/CS_HW#3_99105561/HW.tex" "HW.xdv" "HW" 1685143129 0
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136759654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -164,21 +164,17 @@
   "C:/Program Files/MiKTeX/tex/xelatex/xepersian/xepersian-persiancal.sty" 1667129857 8178 0bd07ab30371a3432dba322d51faa3d8 ""
   "C:/Program Files/MiKTeX/tex/xelatex/xepersian/xepersian.sty" 1667129856 54585 b300d6b8a9c3de50c8d582d10f7f3fd7 ""
   "C:/Program Files/MiKTeX/tex/xelatex/xetex-pstricks/pstricks.con" 1266284760 204 366747485ba2670f55166e66d1f21249 ""
-  "C:/Users/Eye Patch/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1674247539 36428414 01e6d2503354e1f40dd8e68ce0c7bd9e ""
-  "HW.aux" 1682124264 1049 f998977ae246fac7f4501ec8ae884898 "xelatex"
-  "HW.out" 1682124264 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "HW.tex" 1678014016 471 a9e095e32e1016071ce75d76c7618024 ""
+  "C:/Users/Eye Patch/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1683914123 36428414 3d658bbc48afc67546175ac8f194f841 ""
+  "HW.aux" 1685143128 555 2f2ce5dac9de45c3125ad865330c32d4 "xelatex"
+  "HW.out" 1685143128 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "HW.tex" 1685139716 421 bb71ffdbdb8a0b629d4cd56df67a97e3 ""
   "commons/course.sty" 1678450800 6733 4944313a5b28a7c83f7c2058c134c0ab ""
-  "commons/first.jpg" 1682111857 31083 84004c38b3390f3fb956dc3c67733642 ""
-  "commons/second.jpg" 1682122367 37097 c9ebab6e49659376f0841e5bf59643e9 ""
   "commons/sharif.png" 1674235234 34782 91c831e22cd5b8b30cdd0d7fa2b74a71 ""
-  "commons/third.jpg" 1682123599 30051 e47a66e08fedb40cf72ef65f2cd974ef ""
-  "d:/Programer/Taklif/CS_HW#2_99105561/HW.tex" 1678014016 471 a9e095e32e1016071ce75d76c7618024 ""
-  "questions/1.tex" 1682109637 1264 5f35e6fb2e87cb0fe58a2abf5d9b7df7 ""
-  "questions/2.tex" 1682110255 696 e78957f57fb06150d3f4b5e8884b8320 ""
-  "questions/3.tex" 1682112932 2022 b1c78b98dd7c764927597aebe1f2371f ""
-  "questions/4.tex" 1682123207 1743 fc89ae2edd74271cc5025293aebe89b3 ""
-  "questions/5.tex" 1682124259 1412 95dc565144cba18b1d0ebbdc6da4ce1c ""
+  "d:/Term 06/Computer Simulation/HW#3/CS_HW#3_99105561/HW.tex" 1685139716 421 bb71ffdbdb8a0b629d4cd56df67a97e3 ""
+  "questions/1.tex" 1685143122 2565 603055ed2fbf42445f1d05e142bed3d7 ""
+  "questions/2.tex" 1685122316 1525 472a8a60970a86c1eb44b05c42661e3d ""
+  "questions/3.tex" 1685124117 2089 8d5e2820b5feb73852865007286b5147 ""
+  "questions/4.tex" 1685139667 4326 61ad2a94451ea99870a76a5d7125c2d8 ""
   (generated)
   "HW.aux"
   "HW.log"
