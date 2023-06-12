@@ -1,0 +1,32 @@
+در اینجا برای آنکه بتوانیم استراتژی برای
+\LR{acceptance-rejection}
+توزیع
+\LR{negetive binomial}
+معرفی کنیم ابتدا باید توزیع مورد نظر را تحلیل کنیم. در اینجا به ازای هر عدد تصادفی تولید شده در بازه
+$[0,1]$
+اگر آن عدد بالاتر از مقدار
+$p$
+بود آن را رد می‌کنیم و اگر کوچکتر از این مقدار بود آن را قبول می‌کنیم. این کار را تا جایی ادامه می‌دهیم که به
+$k$
+عدد قبول شده برسیم، آنگاه تعداد اعداد بررسی شده تا کنون جواب اصلی ما خواهد بود.
+
+دلیل صحت این استراتژی هم به این خاطر است که در توزیع
+\LR{negetive binomial}
+هر رویداد به احتمال
+$1 - p$
+شکست می‌خورد و توزیع احتمال موفقیت
+$k$
+رویداد در تمامی رویدادها را بیان می‌کند.
+
+حال با توجه به روش معرفی شده برای اعداد مدنظر خواهیم داشت:
+\begin{flalign*}
+    R_1 &= 0.81 \implies R_1 > p \implies \text{Reject}, \, n = 0 \quad R_2 = 0.65 \implies R_2 > p \implies \text{Reject}, \, n = 0 \\
+    R_3 &= 0.72 \implies R_3 > p \implies \text{Reject}, \, n = 0 \quad R_4 = 0.95 \implies R_4 > p \implies \text{Reject}, \, n = 0 \\
+    R_5 &= 0.2 \implies R_5 < p \implies \text{Accept}, \, n = 1 \quad R_6 = 0.86 \implies R_6 > p \implies \text{Reject}, \, n = 1 \\
+    R_7 &= 0.4 \implies R_7 < p \implies \text{Accept}, \, n = 2 \quad R_8 = 0.75 \implies R_8 > p \implies \text{Reject}, \, n = 2 \\
+    R_9 &= 0.35 \implies R_9 < p \implies \text{Accept}, \, n = 3 \quad R_{10} = 0.79 \implies R_{10} > p \implies \text{Reject}, \, n = 3 \\
+    R_{11} &= 0.2 \implies R_{11} < p \implies \text{Accept}, \, n = 4 &&
+\end{flalign*}
+در این صورت اولین عدد مورد پذیرش
+$R_9 = 0.35$
+خواهد بود که نشان‌دهنده این است که دنباله اعداد پس از ۹ ورودی به حالت مدنظر رسیده‌اند.

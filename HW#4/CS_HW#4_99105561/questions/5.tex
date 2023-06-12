@@ -1,0 +1,61 @@
+\subsection*{الف}
+با توجه به تست
+\LR{chi-square}
+و فرضیه اینکه این داده‌ها از توزیع پواسون پیروی می‌کنند، ابتدا می‌بایست برای تخمین پارامتر
+$\lambda$
+میانگین ۱۰۰ داده داده شده را به دست آوریم. به این ترتیب داریم:
+\begin{flalign*}
+    \text{میانگین داده‌ها} = \frac{30 \times 0 + 45 \times 1 + 15 \times 2 + 7 \times 3 + 2 \times 4 + 1 \times 5}{100} = 1.09 &&
+\end{flalign*}
+حال در ادامه داریم:
+
+\LTR
+\begin{center}
+\setlength{\tabcolsep}{10pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|c|c|c|c|c|} \hline
+$i$             & $0$           & $1$           & $2$               & $3$           & $4$       & $5$   \\ \hline
+$O_i$           & $30$          & $45$          & $15$              & $7$           & $2$       & $1$   \\ \hline
+$E_i$           & $33.62$       & $36.65$       & $19.97$           & $7.25$        & $1.97$    & $0.43$  \\ \hline
+\end{tabular}
+\end{center}
+\RTL
+
+که به این ترتیب برای واریانس داده‌ها خواهیم داشت:
+\begin{flalign*}
+    X_0^2 = \sum_{i = 0}^{5} \frac{(O_i - E_i)^2}{E_i} = \frac{3.62^2}{33.62} + \frac{8.35^2}{36.65} + \frac{4.47^2}{19.97} + \frac{0.25^2}{7.25} + \frac{0.03^2}{1.97} + \frac{0.57^2}{0.43} \simeq 4.3 &&
+\end{flalign*}
+حال با توجه به درجه آزادی و
+\LR{Level of significance}
+خواهیم داشت:
+\begin{flalign*}
+    V = K - S - 1 = 4 \implies X_{0.05}^2 = 9.49 \\
+    \implies 4.3 < 9.49 \implies X_0^2 < X_{0.05}^2 &&
+\end{flalign*}
+بنابراین فرض در نظر گرفته شده را نمی‌توان رد کرد.
+
+\subsection*{ب}
+همانند قسمت قبل عمل می‌کنیم با این تفاوت که این بار می‌بایست میانگین را
+$1.5$
+در نظر بگیریم. ابتدا برای جدول داریم:
+
+\LTR
+\begin{center}
+\setlength{\tabcolsep}{10pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|c|c|c|c|c|} \hline
+$i$             & $0$           & $1$           & $2$               & $3$           & $4$       & $5$   \\ \hline
+$O_i$           & $30$          & $45$          & $15$              & $7$           & $2$       & $1$   \\ \hline
+$E_i$           & $22.31$       & $33.47$       & $25.11$           & $12.55$       & $4.69$    & $1.41$  \\ \hline
+\end{tabular}
+\end{center}
+\RTL
+
+\begin{flalign*}
+    X_0^2 = \sum_{i = 0}^{5} \frac{(O_i - E_i)^2}{E_i} = \frac{7.69^2}{22.31} + \frac{9.53^2}{33.47} + \frac{10.11^2}{25.11} + \frac{5.55^2}{12.55} + \frac{2.69^2}{4.69} + \frac{0.41^2}{1.41} \simeq 14.8&&
+\end{flalign*}
+حال داریم:
+\begin{flalign*}
+    \implies 14.8 > 9.49 \implies X_0^2 > X_{0.05}^2 &&
+\end{flalign*}
+بنابراین این فرض را می‌توان رد نمود.

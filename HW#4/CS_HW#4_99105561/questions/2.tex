@@ -1,0 +1,35 @@
+\subsection*{الف}
+برای تابع توزیع احتمال خرید میوه‌ها با توجه به جدول داده شده خواهیم داشت:
+\begin{flalign*}
+    P(x = i) = 
+    \begin{cases}
+        \frac{5}{11} \quad i = 1 \\
+        \frac{3}{11} \quad i = 2 \\
+        \frac{2}{11} \quad i = 3 \\
+        \frac{1}{11} \quad i = 4
+    \end{cases} &&
+\end{flalign*}
+
+\subsection*{ب}
+حال با توجه به روش
+\LR{Inverse-transform}
+ابتدا به دست می‌آوریم که هر عدد بین کدام بازه‌ها مطلق به کدام
+$x_i$
+است.
+\begin{flalign*}
+    x_i = 
+    \begin{cases}
+        1 \quad 0 \leq R_i \leq \frac{5}{11} \\
+        2 \quad \frac{5}{11} \leq R_i \leq \frac{8}{11} \\
+        3 \quad \frac{8}{11} \leq R_i \leq \frac{10}{11} \\
+        4 \quad \frac{10}{11} \leq R_i \leq 1
+    \end{cases} &&
+\end{flalign*}
+حال برای واریته متناظر با اعداد داده شده خواهیم داشت.
+\begin{flalign*}
+    R_1 &= 0.3 \implies 0 \leq R_1 \leq \frac{5}{11} \implies x_1 = 1 \\
+    R_2 &= 0.45 \implies 0 \leq R_2 \leq \frac{5}{11} \implies x_2 = 1 \\
+    R_3 &= 0.6 \implies \frac{5}{11} \leq R_3 \leq \frac{8}{11} \implies x_3 = 2 \\
+    R_4 &= 0.8 \implies \frac{8}{11} \leq R_4 \leq \frac{10}{11} \implies x_4 = 3 \\
+    R_5 &= 0.95 \implies \frac{10}{11} \leq R_5 \leq 1 \implies x_5 = 4 &&
+\end{flalign*}

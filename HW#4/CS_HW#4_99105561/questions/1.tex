@@ -1,0 +1,26 @@
+برای توزیع داده شده ابتدا
+CDF
+آن را طبق رابطه زیر به دست می‌اوریم.
+\begin{flalign*}
+    F(x) &= \int_{-\infty}^{\infty} f(x) \dd x &&
+\end{flalign*}
+به این ترتیب خواهیم داشت:
+\begin{flalign*}
+    F(x) = 
+    \begin{cases}
+        0 \quad \quad x < -2 \\[0.4cm]
+        -\frac{x^3}{16} \quad -2 \leq x < 0 \\[0.4cm]
+        1 - \frac{e^{-2x}}{2} \quad 0 \leq x
+    \end{cases} &&
+\end{flalign*}
+حال طبق رابطه
+$x = F^{-1} (R)$
+خواهیم داشت:
+\begin{flalign*}
+    x =
+    \begin{cases}
+        -\sqrt[3]{16} R \quad 0 \leq R \leq 0.5 \\[0.4cm]
+        -\frac{1}{2} \ln^2(R) \quad 0.5 \leq R \leq 1 
+    \end{cases} &&
+\end{flalign*}
+که با رابطه‌های به دست آمده می‌توان متغیر تصادفی مدنظر را ساخت.
